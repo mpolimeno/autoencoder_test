@@ -1,1 +1,1 @@
-# Repo to test auto-encoder idea for wave generations and spectral matching
+# Repository to test autoencoder idea for wave generations and spectral matching
