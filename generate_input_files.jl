@@ -80,8 +80,8 @@ function main()
         random_increment_Tp = random_Tp_vec[1]
 
         # Update Hs and Tp by adding the random increments
-        current_Hs += random_increment_Hs
-        current_Tp += random_increment_Tp
+        current_Hs = 0.148 + random_increment_Hs
+        current_Tp = 1.6971 + random_increment_Tp
 
         # Ensure Hs and Tp never go negative
         current_Hs = max(0.0, current_Hs)
